@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Bit Bit Loop.mp3-6a5aacb7b24498d035200d590fc578d3.mp3str"
+
+[deps]
+
+source_file="res://Assets/Ingame/Bit Bit Loop.mp3"
+dest_files=[ "res://.import/Bit Bit Loop.mp3-6a5aacb7b24498d035200d590fc578d3.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

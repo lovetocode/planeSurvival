@@ -1,0 +1,84 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://scenes/Menu.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Ingame/ship_0009.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Ingame/ship_0000.png" type="Texture" id=3]
+[ext_resource path="res://scenes/Background.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Assets/Ingame/customFont.tres" type="DynamicFont" id=5]
+[ext_resource path="res://Assets/Ingame/ChelaOne-Regular.ttf" type="DynamicFontData" id=6]
+
+[sub_resource type="DynamicFont" id=1]
+size = 26
+outline_size = 3
+outline_color = Color( 0.0392157, 0.0392157, 0.0392157, 1 )
+font_data = ExtResource( 6 )
+
+[node name="Menu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 2.0
+margin_top = -2.0
+margin_right = 2.0
+margin_bottom = -2.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Background" parent="." instance=ExtResource( 4 )]
+
+[node name="Title" type="Label" parent="."]
+anchor_right = 1.0
+margin_top = 117.0
+margin_bottom = 149.0
+custom_fonts/font = SubResource( 1 )
+text = "Plane Survival"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="StartButton" type="Button" parent="."]
+margin_left = 39.0
+margin_top = 164.0
+margin_right = 139.0
+margin_bottom = 194.0
+rect_min_size = Vector2( 100, 0 )
+custom_fonts/font = ExtResource( 5 )
+text = "START"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Ship0000" type="Sprite" parent="."]
+position = Vector2( 113, 278 )
+scale = Vector2( 1.84375, 1.84375 )
+texture = ExtResource( 3 )
+
+[node name="Ship0009" type="Sprite" parent="."]
+position = Vector2( 35, 91 )
+scale = Vector2( 1.84375, 1.84375 )
+texture = ExtResource( 2 )
+
+[node name="Ship0009" type="Sprite" parent="Ship0009"]
+position = Vector2( 13.5593, -20.0678 )
+texture = ExtResource( 2 )
+
+[node name="Ship0010" type="Sprite" parent="Ship0009"]
+position = Vector2( 65.0847, -9.53674e-07 )
+texture = ExtResource( 2 )
+
+[node name="HighestLabel" type="Label" parent="."]
+anchor_right = 1.0
+margin_left = 4.0
+margin_top = 208.0
+margin_right = 4.0
+margin_bottom = 232.0
+custom_fonts/font = ExtResource( 5 )
+text = "Highest: 0 "
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="StartButton" to="." method="_on_StartButton_pressed"]

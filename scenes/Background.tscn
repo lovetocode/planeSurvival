@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Assets/Ingame/tile_0056.png" type="Texture" id=1]
+
+[node name="Background" type="Sprite"]
+modulate = Color( 0.660156, 0.654999, 0.654999, 1 )
+texture = ExtResource( 1 )
+centered = false
+region_enabled = true
+region_rect = Rect2( 0, 0, 180, 320 )
+__meta__ = {
+"_edit_lock_": true
+}
