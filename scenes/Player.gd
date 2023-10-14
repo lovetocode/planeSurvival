@@ -1,21 +1,19 @@
-extends Area2D
+extends CharacterBody2D
+
+class_name Player
 
 signal died 
-export var speed = 250
+@export var speed = 250
 
 
-
-func _process(delta):
-	 var input = Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left")
-	 var new_position = position.x + input * delta * speed
-	 var half_width = $Sprite.texture.get_width() / 2 
+func _physics_process(delta):
+	var direction = Vector2(Input.get_axis("left", "right"), Input.get_axis("up", "down"))
+	velocity = direction * speed
+	var half_width = $Sprite2D.texture.get_width() / 2 
+	move_and_slide()
 	
-	 position.x = clamp(new_position,half_width,180 - half_width)
+	global_position = global_position.clamp(Vector2.ZERO, get_viewport_rect().size)
 	
-	
-
-
-
-func _on_Player_area_entered(area):
+func die():
 	emit_signal("died")
 	queue_free()

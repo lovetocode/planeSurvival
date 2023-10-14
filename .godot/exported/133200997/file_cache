@@ -1,0 +1,8 @@
+res://Assets/Ingame/customFont.tres::6c266c2d1c782cabb4f113a76b1d2d83::1697235920::res://.godot/exported/133200997/export-40814a905a63be6518f16d3d0d4a9695-customFont.res
+res://scenes/Background.tscn::54e6a3ae9d8657e5ec858edbca87694a::1697239911::res://.godot/exported/133200997/export-4913db11209a89d2c1e21ad0ff2e6654-Background.scn
+res://scenes/enemy.tscn::4229824b9efbbd8c190ebe25f1304ddf::1697239911::res://.godot/exported/133200997/export-a930820ec0ab16db6719aff4daa500f9-enemy.scn
+res://scenes/Explosion.tscn::ddb0cb696c0000ad90420a3996d59f4d::1697239911::res://.godot/exported/133200997/export-23374333aab1047ed97d70d38a976741-Explosion.scn
+res://scenes/Menu.tscn::1bd709e29dddde81b18ace7335fcc53f::1697239911::res://.godot/exported/133200997/export-8e836f4621de545031f781562e7b3b7d-Menu.scn
+res://scenes/Player.tscn::f3cfb5bd86f4b121c033b4fca4982f9d::1697239912::res://.godot/exported/133200997/export-e8220e74d1354b9e6b168b513689419c-Player.scn
+res://scenes/World.tscn::dee95379a34f84304fe4baddd8f8dee0::1697239912::res://.godot/exported/133200997/export-57a8a85058368be1f5628ef4b8140bf5-World.scn
+res://default_env.tres::0b0e3d9f08bc7dc2268920d3b7c297fc::1697239912::res://.godot/exported/133200997/export-7cf3fd67ad9f55210191d77b582b8209-default_env.res

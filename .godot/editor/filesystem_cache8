@@ -1,0 +1,33 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1697239919
+default_env.tres::Environment::253726207964057771::1697239912::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1697239826::0::1::::<><>::
+global.gd::GDScript::-1::1697235920::0::1::::<>Node<>::
+icon.png::CompressedTexture2D::4413362285417214381::1697235897::1697235945::1::::<><>::
+README.md::TextFile::-1::1697235897::0::1::::<><>::
+::res://Assets/::1697235897
+::res://Assets/Ingame/::1697235945
+Bit Bit Loop.mp3::AudioStreamMP3::6133502056130791931::1697235897::1697235944::1::::<><>::
+ChelaOne-Regular.ttf::FontFile::4795798718133827598::1697235897::1697235944::1::::<><>::
+customFont.tres::FontFile::-1::1697235920::0::1::::<><>::res://Assets/Ingame/ChelaOne-Regular.ttf
+explosionCrunch_000.ogg::AudioStreamOggVorbis::3498154408339643830::1697235897::1697235944::1::::<><>::
+ship_0000.png::CompressedTexture2D::2628199410275620398::1697235897::1697235945::1::::<><>::
+ship_0009.png::CompressedTexture2D::2092400988465760662::1697235897::1697235945::1::::<><>::
+tile_0005.png::CompressedTexture2D::5787081871401784173::1697235897::1697235945::1::::<><>::
+tile_0056.png::CompressedTexture2D::469729365456457129::1697235897::1697235945::1::::<><>::
+::res://Assets/Packaging/::1697235945
+screenshot.png::CompressedTexture2D::3627887625972203841::1697235897::1697235945::1::::<><>::
+thumbnail.png::CompressedTexture2D::2152888764852824105::1697235897::1697235945::1::::<><>::
+::res://Build/::1697235897
+::res://scenes/::1697239912
+Background.tscn::PackedScene::5143419324362199560::1697239911::0::1::::<><>::uid://gxsmymrnkhvd::::res://Assets/Ingame/tile_0056.png
+enemy.gd::GDScript::-1::1697238339::0::1::::Enemy<>Area2D<>::
+enemy.tscn::PackedScene::3304559062632996923::1697239911::0::1::::<><>::res://scenes/enemy.gd<>uid://42tskuhcbf8y::::res://Assets/Ingame/ship_0009.png
+Explosion.tscn::PackedScene::430962501766972424::1697239911::0::1::::<><>::uid://copknmhjp0vll::::res://Assets/Ingame/tile_0005.png
+Menu.gd::GDScript::-1::1697239393::0::1::::<>Control<>::
+Menu.tscn::PackedScene::3048077972688469309::1697239911::0::1::::<><>::res://scenes/Menu.gd<>uid://42tskuhcbf8y::::res://Assets/Ingame/ship_0009.png<>uid://bdpecbyenwm83::::res://Assets/Ingame/ship_0000.png<>uid://cfjrmnyp1g833::::res://scenes/Background.tscn<>res://Assets/Ingame/customFont.tres<>uid://caledsp8gk8le::::res://Assets/Ingame/ChelaOne-Regular.ttf
+Player.gd::GDScript::-1::1697239019::0::1::::Player<>CharacterBody2D<>::
+Player.tscn::PackedScene::7092110438479976532::1697239912::0::1::::<><>::uid://bdpecbyenwm83::::res://Assets/Ingame/ship_0000.png<>res://scenes/Player.gd
+ScoreLabel.gd::GDScript::-1::1697235920::0::1::::<>Label<>::
+World.gd::GDScript::-1::1697235920::0::1::::<>Node<>::
+World.tscn::PackedScene::2619031484182028213::1697239912::0::1::::<><>::uid://cfjrmnyp1g833::::res://scenes/Background.tscn<>uid://c8bqa1khulx5e::::res://scenes/Player.tscn<>res://scenes/World.gd<>uid://bnc0utllc32mx::::res://scenes/enemy.tscn<>uid://ge05igsjs1uy::::res://scenes/Explosion.tscn<>uid://bp3sdemx1brg5::::res://Assets/Ingame/explosionCrunch_000.ogg<>res://scenes/ScoreLabel.gd<>uid://ctnd5aps0lfwt::::res://Assets/Ingame/Bit Bit Loop.mp3<>res://Assets/Ingame/customFont.tres
